@@ -12,7 +12,7 @@ The image below shows the webpage created
 ![alt text](assets/images/PW-result.png)
 
 ## Location
-https://twangerwang.github.io/02codegenerator/
+https://twangerwang.github.io/03codegenerator/
 
 ## Credits
 Original code provided by University of Texas Coding Bootcamp
