@@ -9,7 +9,7 @@ Create a Password Generator that takes a length input and go through a series of
 ## Mock-up
 The image below shows the webpage created
 
-![alt text](assets/images/PW-result.png)
+![alt text](Assets/images/PW-result.png)
 
 ## Location
 https://twangerwang.github.io/02codegenerator/

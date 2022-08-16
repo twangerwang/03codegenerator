@@ -19,27 +19,25 @@ function generatePassword() {
 // initializes the final pool which the password will pick from
   var totalPool = [];
   
-// next 4 vars selects which subpool to add to the final pool
+// next 4 vars selects which subpool to add to the final pool. The while loop exits when at least one subpool is chosen. 
+while (totalPool.length==0) {
   var lowerCase = window.confirm("Click OK to include lowercase letters");
   if (lowerCase) {
     totalPool = totalPool.concat(lowerCasePool);
   } 
-  
   var upperCase = window.confirm("Click OK to include UPPERCASE letters");
   if (upperCase) {
     totalPool = totalPool.concat(upperCasePool);
   }
-  
   var numeric = window.confirm("Click OK to include numerics");
   if (numeric) {
     totalPool = totalPool.concat(numericPool);
   } 
-  
   var specChar = window.confirm("Click OK to include special characters");
   if (specChar) {
     totalPool = totalPool.concat(specCharPool);
   } 
-
+}
   // ititializes the password string then runs a while loop for the length of the password
   var pw = [];
   while (pwLength > 0) {
